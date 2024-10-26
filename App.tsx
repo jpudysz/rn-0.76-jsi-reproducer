@@ -11,11 +11,12 @@ import {
   SafeAreaView,
   ScrollView,
   StatusBar,
-  StyleSheet,
   Text,
   useColorScheme,
   View,
 } from 'react-native';
+import { StyleSheet } from 'react-native-unistyles'
+import './unistyles'
 
 import {
   Colors,
@@ -96,10 +97,11 @@ function App(): React.JSX.Element {
   );
 }
 
-const styles = StyleSheet.create({
+const styles = StyleSheet.create(theme => ({
   sectionContainer: {
     marginTop: 32,
     paddingHorizontal: 24,
+    backgroundColor: theme.colors.background,
   },
   sectionTitle: {
     fontSize: 24,
@@ -113,6 +115,6 @@ const styles = StyleSheet.create({
   highlight: {
     fontWeight: '700',
   },
-});
+}));
 
 export default App;
