@@ -14,9 +14,8 @@ import {
   Text,
   useColorScheme,
   View,
+  StyleSheet
 } from 'react-native';
-import { StyleSheet } from 'react-native-unistyles'
-import './unistyles'
 
 import {
   Colors,
@@ -25,6 +24,11 @@ import {
   LearnMoreLinks,
   ReloadInstructions,
 } from 'react-native/Libraries/NewAppScreen';
+import NativeLocalStorage from './specs/NativeLocalStorage'
+
+NativeLocalStorage.install();
+
+global.throwJSIError()
 
 type SectionProps = PropsWithChildren<{
   title: string;
@@ -97,11 +101,10 @@ function App(): React.JSX.Element {
   );
 }
 
-const styles = StyleSheet.create(theme => ({
+const styles = StyleSheet.create({
   sectionContainer: {
     marginTop: 32,
     paddingHorizontal: 24,
-    backgroundColor: theme.colors.background,
   },
   sectionTitle: {
     fontSize: 24,
@@ -115,6 +118,6 @@ const styles = StyleSheet.create(theme => ({
   highlight: {
     fontWeight: '700',
   },
-}));
+});
 
 export default App;

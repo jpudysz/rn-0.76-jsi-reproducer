@@ -15,6 +15,7 @@
 		1D3FB4356633933C3A56F753 /* PrivacyInfo.xcprivacy in Resources */ = {isa = PBXBuildFile; fileRef = 13B07FB81A68108700A75B9A /* PrivacyInfo.xcprivacy */; };
 		7699B88040F8A987B510C191 /* libPods-RN076-RN076Tests.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 19F6CBCC0A4E27FBF8BF4A61 /* libPods-RN076-RN076Tests.a */; };
 		81AB9BB82411601600AC10FF /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 81AB9BB72411601600AC10FF /* LaunchScreen.storyboard */; };
+		DA04039F2CCFD7AA003BF7A7 /* RCTNativeLocalStorage.mm in Sources */ = {isa = PBXBuildFile; fileRef = DA04039E2CCFD7AA003BF7A7 /* RCTNativeLocalStorage.mm */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -45,6 +46,8 @@
 		5DCACB8F33CDC322A6C60F78 /* libPods-RN076.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-RN076.a"; sourceTree = BUILT_PRODUCTS_DIR; };
 		81AB9BB72411601600AC10FF /* LaunchScreen.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; name = LaunchScreen.storyboard; path = RN076/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		89C6BE57DB24E9ADA2F236DE /* Pods-RN076-RN076Tests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-RN076-RN076Tests.release.xcconfig"; path = "Target Support Files/Pods-RN076-RN076Tests/Pods-RN076-RN076Tests.release.xcconfig"; sourceTree = "<group>"; };
+		DA04039D2CCFD7AA003BF7A7 /* RCTNativeLocalStorage.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = RCTNativeLocalStorage.h; sourceTree = "<group>"; };
+		DA04039E2CCFD7AA003BF7A7 /* RCTNativeLocalStorage.mm */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.objcpp; path = RCTNativeLocalStorage.mm; sourceTree = "<group>"; };
 		ED297162215061F000B7C4FE /* JavaScriptCore.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = JavaScriptCore.framework; path = System/Library/Frameworks/JavaScriptCore.framework; sourceTree = SDKROOT; };
 /* End PBXFileReference section */
 
@@ -119,6 +122,7 @@
 		83CBB9F61A601CBA00E9B192 = {
 			isa = PBXGroup;
 			children = (
+				DA04039C2CCFD781003BF7A7 /* NativeLocalStorage */,
 				13B07FAE1A68108700A75B9A /* RN076 */,
 				832341AE1AAA6A7D00B99B32 /* Libraries */,
 				00E356EF1AD99517003FC87E /* RN076Tests */,
@@ -149,6 +153,15 @@
 				89C6BE57DB24E9ADA2F236DE /* Pods-RN076-RN076Tests.release.xcconfig */,
 			);
 			path = Pods;
+			sourceTree = "<group>";
+		};
+		DA04039C2CCFD781003BF7A7 /* NativeLocalStorage */ = {
+			isa = PBXGroup;
+			children = (
+				DA04039D2CCFD7AA003BF7A7 /* RCTNativeLocalStorage.h */,
+				DA04039E2CCFD7AA003BF7A7 /* RCTNativeLocalStorage.mm */,
+			);
+			path = NativeLocalStorage;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -398,6 +411,7 @@
 			files = (
 				13B07FBC1A68108700A75B9A /* AppDelegate.mm in Sources */,
 				13B07FC11A68108700A75B9A /* main.m in Sources */,
+				DA04039F2CCFD7AA003BF7A7 /* RCTNativeLocalStorage.mm in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

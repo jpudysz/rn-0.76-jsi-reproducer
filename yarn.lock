@@ -5523,16 +5523,6 @@ react-is@^17.0.1:
   resolved "https://registry.yarnpkg.com/react-is/-/react-is-17.0.2.tgz#e691d4a8e9c789365655539ab372762b0efb54f0"
   integrity sha512-w2GsyukL62IJnlaff/nRegPQR94C/XXamvMWmSHRJ4y7Ts/4ocGRmTHvOs8PSE6pB3dWOrD/nueuU5sduBsQ4w==
 
-react-native-nitro-modules@^0.13.0:
-  version "0.13.0"
-  resolved "https://registry.yarnpkg.com/react-native-nitro-modules/-/react-native-nitro-modules-0.13.0.tgz#2cfa88a81bb6bebe0ac3bdff2325fcbbefd9981a"
-  integrity sha512-d6ampq4nCswq2IexwSyJKFf3+UKGPs6Yp910HeQBdlss7t3q7FciUu5ha4JU6avfRhnhZLeIke5UXLHnoHIAyw==
-
-react-native-unistyles@3.0.0-alpha.28:
-  version "3.0.0-alpha.28"
-  resolved "https://registry.yarnpkg.com/react-native-unistyles/-/react-native-unistyles-3.0.0-alpha.28.tgz#1c62d0fe9c335e3b80c56aa57badda73d8900b4d"
-  integrity sha512-bgN1F1PFtUSKrym9A2ELGtjN8MnRM6fap3cSiSt8wyFy635jGfV7YPx/4e4RfAX8eCc1bZ1NP7oHiAVv4Lodsw==
-
 react-native@0.76.0:
   version "0.76.0"
   resolved "https://registry.yarnpkg.com/react-native/-/react-native-0.76.0.tgz#fd624e9da2271327079b792190800e364e1ad6a7"
