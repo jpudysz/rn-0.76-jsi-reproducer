@@ -36,10 +36,7 @@ function Section({children, title}: SectionProps): React.JSX.Element {
     <View style={styles.sectionContainer}>
       <Text
         style={[
-          styles.sectionTitle,
-          {
-            color: isDarkMode ? Colors.white : Colors.black,
-          },
+          styles.sectionTitle
         ]}>
         {title}
       </Text>
@@ -106,6 +103,7 @@ const styles = StyleSheet.create(theme => ({
   sectionTitle: {
     fontSize: 24,
     fontWeight: '600',
+    color: theme.colors.accent,
   },
   sectionDescription: {
     marginTop: 8,

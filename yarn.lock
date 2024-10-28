@@ -5523,7 +5523,7 @@ react-is@^17.0.1:
   resolved "https://registry.yarnpkg.com/react-is/-/react-is-17.0.2.tgz#e691d4a8e9c789365655539ab372762b0efb54f0"
   integrity sha512-w2GsyukL62IJnlaff/nRegPQR94C/XXamvMWmSHRJ4y7Ts/4ocGRmTHvOs8PSE6pB3dWOrD/nueuU5sduBsQ4w==
 
-react-native-nitro-modules@^0.13.0:
+react-native-nitro-modules@0.13.0:
   version "0.13.0"
   resolved "https://registry.yarnpkg.com/react-native-nitro-modules/-/react-native-nitro-modules-0.13.0.tgz#2cfa88a81bb6bebe0ac3bdff2325fcbbefd9981a"
   integrity sha512-d6ampq4nCswq2IexwSyJKFf3+UKGPs6Yp910HeQBdlss7t3q7FciUu5ha4JU6avfRhnhZLeIke5UXLHnoHIAyw==
